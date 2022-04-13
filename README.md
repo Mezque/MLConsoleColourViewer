@@ -12,3 +12,7 @@
 Only really useful for developers I guess but I made this to test what each colour looked like in the console its self and its kind of cool lol.
 
 It's useful for the ability to have more colours, and use more then 1 colour per log message like `LoggerInstance.Msg("\x1B[38;5;226m Hello, \x1B[38;5;161m Now I'm Pink Text. \x1B[38;5;129m Now Im Purple! \x1B[38;5;231m Rest Of Log In White)`
+
+And that would look like this; <img width="581" alt="example" src="https://user-images.githubusercontent.com/31026406/163105302-6520dc1c-2b27-4d58-9c18-68de31e81a0d.png">
+
+
