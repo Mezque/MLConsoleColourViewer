@@ -6,6 +6,7 @@ namespace ColourViewer
     {
         public override void OnApplicationStart()
         {
+            LoggerInstance.Msg("--------------------------------------------------------------------------------");
             LoggerInstance.Msg("About to trolly log all text modifiers to the console!" +
                 "\n\x1b[37mHere is some \x1b[0m Normal Text\x1b[0m" +
                 "\n\x1b[37mHere is some \x1b[1m Bold Text\x1b[0m" +
@@ -15,7 +16,7 @@ namespace ColourViewer
                 "\n\x1b[37mHere is some \x1b[7m Reverse Text\x1b[0m" +
                 "\n\x1b[37mHere is some \x1b[8m Hidden Text\x1b[0m (hidden text lol)" +
                 "\n\x1b[37mHere is some \x1b[9m Strike Out Text\x1b[0m");
-            LoggerInstance.Msg("---------------------------------------------------------------------------");
+            LoggerInstance.Msg("--------------------------------------------------------------------------------");
             LoggerInstance.Msg("About to trolly log all 8 bit colours to the console!\n" +
                 "\n\x1b[37mHere is some \x1b[30m Black Text \x1b[37(its black text,  but it seems to take whatever background colour you have set for some reason)" +
                 "\n\x1b[37mHere is some \x1b[31m Red Text" +
@@ -25,7 +26,7 @@ namespace ColourViewer
                 "\n\x1b[37mHere is some \x1b[35m Magenta Text" +
                 "\n\x1b[37mHere is some \x1b[36m Cyan Text" +
                 "\n\x1b[37mHere is some \x1b[37m White Text (what did you expect white to look like lol");
-            LoggerInstance.Msg("---------------------------------------------------------------------------");
+            LoggerInstance.Msg("--------------------------------------------------------------------------------");
             LoggerInstance.Msg("About to trolly log all 256 Colors  to the console!" +
                 "\n\x1B[38;5;1m Color 1,   \x1B[38;5;2m Color 2,   \x1B[38;5;3m Color 3,   \x1B[38;5;4m Color 4,   \x1B[38;5;5m Color 5,   \x1B[38;5;6m Color 6,   \x1B[38;5;7m Color 7,   \x1B[38;5;8m Color 8,   \x1B[38;5;9m Color 9,   \x1B[38;5;10m Color 10," +
                 "\n\x1B[38;5;11m Color 11,  \x1B[38;5;12m Color 12,  \x1B[38;5;13m Color 13,  \x1B[38;5;14m Color 14,  \x1B[38;5;15m Color 15,  \x1B[38;5;16m Color 16,  \x1B[38;5;17m Color 17,  \x1B[38;5;18m Color 18,  \x1B[38;5;19m Color 19,  \x1B[38;5;20m Color 20," +
@@ -50,7 +51,7 @@ namespace ColourViewer
                 "\n\x1B[38;5;231m Color 231, \x1B[38;5;232m Color 232, \x1B[38;5;233m Color 233, \x1B[38;5;234m Color 234, \x1B[38;5;235m Color 235, \x1B[38;5;236m Color 236, \x1B[38;5;237m Color 237, \x1B[38;5;238m Color 238, \x1B[38;5;239m Color 239, \x1B[38;5;240m Color 240," +
                 "\n\x1B[38;5;241m Color 241, \x1B[38;5;242m Color 242, \x1B[38;5;243m Color 243, \x1B[38;5;244m Color 244, \x1B[38;5;245m Color 245, \x1B[38;5;246m Color 246, \x1B[38;5;247m Color 247, \x1B[38;5;248m Color 248, \x1B[38;5;249m Color 249, \x1B[38;5;250m Color 250," +
                 "\n\x1B[38;5;251m Color 251, \x1B[38;5;252m Color 252, \x1B[38;5;253m Color 253, \x1B[38;5;254m Color 254, \x1B[38;5;255m Color 255");
-            LoggerInstance.Msg("---------------------------------------------------------------------------");
+            LoggerInstance.Msg("--------------------------------------------------------------------------------");
             LoggerInstance.Msg("About to trolly log all 255 Backgrounds to the console!" +
                "\n\x1B[48;5;1m Color 1,   \x1B[48;5;2m Color 2,   \x1B[48;5;3m Color 3,   \x1B[48;5;4m Color 4,   \x1B[48;5;5m Color 5,   \x1B[48;5;6m Color 6,   \x1B[48;5;7m Color 7,   \x1B[48;5;8m Color 8,   \x1B[48;5;9m Color 9,   \x1B[48;5;10m Color 10, \x1B[48;5;0m" +
                "\n\x1B[48;5;11m Color 11,  \x1B[48;5;12m Color 12,  \x1B[48;5;13m Color 13,  \x1B[48;5;14m Color 14,  \x1B[48;5;15m Color 15,  \x1B[48;5;16m Color 16,  \x1B[48;5;17m Color 17,  \x1B[48;5;18m Color 18,  \x1B[48;5;19m Color 19,  \x1B[48;5;20m Color 20, \x1B[48;5;0m" +
@@ -75,6 +76,8 @@ namespace ColourViewer
                "\n\x1B[48;5;231m Color 231, \x1B[48;5;232m Color 232, \x1B[48;5;233m Color 233, \x1B[48;5;234m Color 234, \x1B[48;5;235m Color 235, \x1B[48;5;236m Color 236, \x1B[48;5;237m Color 237, \x1B[48;5;248m Color 248, \x1B[48;5;239m Color 239, \x1B[48;5;240m Color 240, \x1B[48;5;0m" +
                "\n\x1B[48;5;241m Color 241, \x1B[48;5;242m Color 242, \x1B[48;5;243m Color 243, \x1B[48;5;244m Color 244, \x1B[48;5;245m Color 245, \x1B[48;5;246m Color 246, \x1B[48;5;247m Color 247, \x1B[48;5;248m Color 248, \x1B[48;5;249m Color 249, \x1B[48;5;250m Color 250, \x1B[48;5;0m" +
                "\n\x1B[48;5;251m Color 251, \x1B[48;5;252m Color 252, \x1B[48;5;253m Color 253, \x1B[48;5;254m Color 254, \x1B[48;5;255m Color 255 \x1B[48;5;0m");
+            LoggerInstance.Msg("--------------------------------------------------------------------------------");
+
         }
     }
 }
