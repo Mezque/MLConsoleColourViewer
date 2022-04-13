@@ -15,4 +15,4 @@ It's useful for the ability to have more colours, and use more then 1 colour per
 
 And that would look like this; <img width="581" alt="example" src="https://user-images.githubusercontent.com/31026406/163105302-6520dc1c-2b27-4d58-9c18-68de31e81a0d.png">
 
-
+Of course, you can do this with out the mod it just helps to see what the colours look like in pratice.
