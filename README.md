@@ -1,4 +1,4 @@
-<h1 align="center"> Fumo Tags Melonloader.</h1>
+<h1 align="center"> Console Color View Melonloader.</h1>
 <h3 align="center">A Basic Unversal Melon Mod To View Supported Colour Codes And Text Formatting Supported By The ML Console Using ANSI Escape Codes.</h3>
 <h1 align="center"></h1></br>
 
